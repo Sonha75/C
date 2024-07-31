@@ -1,0 +1,6 @@
+---
+label: "Sleeper0.0"
+project:
+- id: "main"
+  path: "Sleeper0_0.slcp"
+  output: "."

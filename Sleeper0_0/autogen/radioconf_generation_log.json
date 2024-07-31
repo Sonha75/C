@@ -1,0 +1,165 @@
+[
+  {
+    "channel_name": "Protocol_Configuration-Channel_Group_1",
+    "result_code": "0",
+    "error_message": "",
+    "logs": [
+      {
+        "type": "warning",
+        "message": [
+          "WARNING: IF + BW/2 > ADC Bandwidth"
+        ]
+      }
+    ],
+    "cfg_logs": [
+      {
+        "name": "Enable FEC",
+        "value": "FECTxEnableEnum.DISABLED"
+      },
+      {
+        "name": "Skip 2nd antenna check with phase demod antenna diversity",
+        "value": "Skip2AntModeEnum.NOSKIP2ANT"
+      },
+      {
+        "name": "Preamble Detection Length",
+        "value": 32
+      },
+      {
+        "name": "Fast preamble detect",
+        "value": "FastDetectEnum.DISABLED"
+      },
+      {
+        "name": "Injection Side",
+        "value": "LoInjectionSideEnum.HIGH_SIDE"
+      },
+      {
+        "name": "Acquisition Channel Bandwidth",
+        "value": 2500000
+      },
+      {
+        "name": "IF Frequency",
+        "value": 1350000
+      },
+      {
+        "name": "RSSI Measurement Period",
+        "value": 3
+      },
+      {
+        "name": "ETSI Category 1 Compatibility",
+        "value": "etsi_cat1_compatible.Normal"
+      },
+      {
+        "name": "Antenna diversity mode",
+        "value": "AntDivModeEnum.DISABLE"
+      },
+      {
+        "name": "Diversity Select-Best repeat",
+        "value": "AntDivRepeatDisModeEnum.REPEATFIRST"
+      },
+      {
+        "name": "Byte position of dynamic length byte",
+        "value": 0
+      },
+      {
+        "name": "Length of the First Word",
+        "value": 8
+      },
+      {
+        "name": "Preamble Binary Pattern",
+        "value": "00000000000000000000000000000000"
+      },
+      {
+        "name": "Syncword Binary Pattern",
+        "value": "11100101"
+      },
+      {
+        "name": "Pre Signal Lock RX Bandwidth [Hz]",
+        "value": 2500000
+      },
+      {
+        "name": "Desired Bitrate [bps]",
+        "value": 2000000
+      },
+      {
+        "name": "Actual TX Baudrate [baud]",
+        "value": 2000000.0
+      },
+      {
+        "name": "Calculated RSSI Offset [dB]",
+        "value": -8.0
+      },
+      {
+        "name": "Actual Carrier Frequency [Hz]",
+        "value": 2404999975
+      },
+      {
+        "name": "Actual Intermediate Frequency [Hz]",
+        "value": 1349967
+      },
+      {
+        "name": "Synthesizer Resolution [Hz]",
+        "value": 74.3865966796875
+      },
+      {
+        "name": "Actual RX Baudrate [baud]",
+        "value": 1999953.1965976234
+      },
+      {
+        "name": "Actual Deviation [Hz]",
+        "value": 0.0
+      },
+      {
+        "name": "Target Modulation Index",
+        "value": 0.5
+      },
+      {
+        "name": "Actual Modulation Index",
+        "value": 0.0
+      },
+      {
+        "name": "Selected Demodulator",
+        "value": "DemodSelectEnum.LEGACY"
+      },
+      {
+        "name": "Carson Bandwidth [Hz]",
+        "value": 3000000
+      },
+      {
+        "name": "Theoretical Required Demodulator Bandwidth [Hz]",
+        "value": 2500000
+      },
+      {
+        "name": "RX Crystal Accuracy [ppm]",
+        "value": 10
+      },
+      {
+        "name": "TX Crystal Accuracy [ppm]",
+        "value": 10
+      },
+      {
+        "name": "Post Signal Lock RX Bandwidth [Hz]",
+        "value": 2500000
+      },
+      {
+        "name": "Actual Demodulator Oversampling Rate",
+        "value": 5.0
+      },
+      {
+        "name": "Raw Data Sampling Rate [sps]",
+        "value": 9999765.0
+      },
+      {
+        "name": "Signal Propagation Delay [symbol]",
+        "value": 9
+      },
+      {
+        "name": "RSSI Update Period [symbol]",
+        "value": 8
+      },
+      {
+        "name": "RSSI Access Time After RX Start [us]",
+        "value": 14.313073383153867
+      }
+    ]
+  }
+]
